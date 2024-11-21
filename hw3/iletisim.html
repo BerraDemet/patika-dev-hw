@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+    body{
+        background-color: #ffffff;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+        font-size: 2.5rem;
+        color: #1a73e8; 
+    }
+    .nav-items{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1rem;
+        background-color: #f4f4f9;
+    }
+    .nav-items a {
+        color: #fff;
+        padding: 10px;
+    }
+    .nav-items a:hover {
+        color: #1a73e8; 
+        text-decoration: underline;
+    }
+    .nav-items a:visited {
+        color: #000; 
+    }
+    .container{
+        padding: 20px 20px;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    ul{
+        margin-left: 20px;
+    }
+    .form-section {
+    width: 400px; 
+    height: 300px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;    
+    }
+    .form-section label {
+        font-size: 1.2rem; 
+        margin-bottom: 5px;
+    }
+    .form-section input{
+        width: 80%;
+    }
+</style>
+<body>
+    <header>
+        <h1>Rehber Web Sitesi</h1>
+            <nav class="nav-items">
+                <a href="index.html">Ana Sayfa</a>
+                <a href="hakkinda.html">Hakkında</a>
+                <a href="servisler.html">Servisler</a>
+                <a href="iletisim.html">İletişim</a>
+            </nav>
+    </header>
+    <div class="container">
+        <div>
+        <h2>İletişim</h2><br>
+        <p>Bize ulaşmak için aşağıdaki iletişim bilgilerini kullanabilirsiniz.<br> Her türlü soru, öneri veya iş birliği talepleriniz için bizimle iletişime geçmekten çekinmeyin.</p><br>
+        <h3>İletişim Bilgileri</h3><br>
+        <ul>
+            <li>Adres: 1234 Sokak Adı, Şehir, Ülke</li>
+            <li>Telefon: +90 123 456 7890</li>
+            <li>E-posta: bilgi@firmamiz.com</li>
+        </ul>
+        </div>
+        <div>
+        <form action="" class="form-section">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Mesajınızı yazınız:</label><br>
+            <br>
+            <textarea id="message" name="message" rows="5" cols="40" placeholder="Mesajınızı buraya yazınız..."></textarea><br><br>
+
+            <button type="submit">Gönder</button>
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
