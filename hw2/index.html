@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berra Demet's Blog</title>
+</head>
+<style> 
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+    .header {
+        width: 100%;
+        background-color: #6C5B7B;
+        color: #F1F1F1;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    body{
+        background-color: #F4F6F9;
+        color: #333;
+        
+    }
+    .main {
+        padding: 30px;
+        display: flex;
+        gap: 30px;
+
+        
+    }
+    h2,h3{
+        color: #2C3E50;
+        margin:10px 0;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    .info-section {
+        background-color: #E8D8D3;
+        padding: 20px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    }
+    .img img{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .img3 img {
+        width: 400px;
+        height: 200px;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .btn button{
+        width: 150px;
+        height: 30px;
+        border: 1px solid #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+    .btn button:hover{
+        background-color: #6C5B7B;
+        border: 1px solid #6C5B7B;
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="header">
+      <h1>Berra Demet's Blog</h1>     
+    </div>
+
+    <div class="main">
+        <!--HTML PART-->
+        <section class="info-section">
+            <h2>HTML Nedir?</h2>
+            <p>İşaretleme dili olan Html, web sayfalarının hazırlanmasında kullanılan sistemdir. Bir programlama dili olmayan Html bilgisayarlarımızda kullandığımız web sitelerinin oluşturulmasında kullanılır. Chrome, Fİrefox ve İnternet Explorer gibi tarayıcılar html kodlarını işleyerek bu kodları web sayfasına dönüştürür.</p>
+            <h3>HTML hakkında:</h3>
+            <ul>
+                <li>Kodlara, “tag” yani etiketler ile komut verilir.</li>
+                <li>Etiketler, “< >” şeklindeki küçüktür ve büyüktür işaretleri arasına yazılır.</li>
+                <li>Etiket açmak için gerekli kod, “< >” işaretleri arasına yazılır ve açılan etiketin kapatılması gerekir.s</li>
+            </ul>
+            <div class="img"><img src="html-img.webp" alt="html"></div>
+            <div class="btn"><button><a href="https://www.w3schools.com/html/html_intro.asp"> More information </a></button></div>
+        </section>
+        <!--CSS PART-->
+        <section class="info-section">
+            <h2>CSS Nedir?</h2>
+            <p>Cascading Style Sheets (Basamaklı Stil Şablonları ya da Basamaklı Biçim Sayfaları, bilinen kısa adıyla CSS), HTML'e ek olarak metin ve format biçimlendirme alanında fazladan olanaklar sunan bir işaretleme dilidir.</p>
+            <h3>CSS’in Versiyonları</h3>
+            <ul>
+                <li>CSS’in ilk çıkışı sürümü CSS1 olarak tanımlanmaktadır. </li>
+                <li>1992 CSS1’e yeni yetenekler kazandırılarak CSS2 sürümünü çıkardı.</li>
+                <li>1999 Yılında da CSS3 taslakları yayınlandı.</li>
+                <li>CSS4, tam anlamıyla bir sürüm olarak tanımlanmasa da, CSS3'ün genişletilmiş ve geliştirilmiş hali olarak düşünülebilir.</li>
+            </ul>
+            <div class="img"><img src="css-img.png" alt="css"></div>
+            <div class="btn"><button><a href="https://www.w3schools.com/css/css_intro.asp"> More information </a></button></div>
+        </section>
+        <!--JAVASCRIPT PART-->
+        <section class="info-section">
+            <h2>JavaScript Nedir?</h2>
+            <p>
+                JavaScript Nedir? - JavaScript'e (JS) Ayrıntılı Bakış - AWS
+                JavaScript, geliştiricilerin etkileşimli web sayfaları oluşturmak için kullandığı bir programlama dilidir. JavaScript işlevleri, sosyal medya akışlarını yenilemekten animasyonlar ve etkileşimli haritalar göstermeye kadar, bir web sitesi kullanıcısının deneyimini iyileştirebilir.</p>
+            <h3>JavaScript Tarihi</h3>
+            <ul>
+                <li>1995 - Brendan Eich tarafından Netscape için JavaScript geliştirildi.</li>
+                <li>1996 - JavaScript, Netscape Navigator tarayıcısında kullanıma sunuldu.</li>
+                <li>1997 - ECMA tarafından ilk JavaScript standardı (ECMAScript 1) yayımlandı.</li>
+            </ul>
+            <div class="img3"><img src="js-img.png" alt="js"></div>
+            <div class="btn"><button><a href="https://www.w3schools.com/js/default.asp"> More information </a></button></div>
+        </section>
+    </div>
+    </div>
+</body>
+</html>
