@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Formu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <h1 id="title">Kayıt Formu</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <form id="survey-form">
+        <label for="name-label">İsim Soyisim:</label>
+        <input type="text" id="name-label" name="name"><br><br>
+
+        <label for="mail-label">Email:</label>
+        <input type="email" id="mail-label" name="email" required><br><br>
+
+        <label for="number-label" >Yaşınız:</label>
+        <input type="number" id="number-label" name="number" min="1" max="100" required><br><br>
+
+        <select id="dropdown">
+            <option>Şehir</option>
+            <option>Ankara</option>
+            <option>İstanbul</option>
+        </select><br><br>
+
+        <p>Hobilerin:</p><br>
+        <input type="checkbox" id="option1" name="choice" value="option1">
+        <label for="option1">Kitap okumak</label>
+    
+        <input type="checkbox" id="option2" name="choice" value="option2">
+        <label for="option2">Puzzle yapmak</label><br><br>
+
+        <p>Cinsiyetinizi seçin:</p><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Erkek</label>
+    
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kadın</label><br><br>
+
+        <label for="comments">Eklemek istedikleriniz:</label><br><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" placeholder="submit">
+    </form>
+    
+</body>
+</html>
